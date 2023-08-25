@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background: #FFD68A;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p,
+a,
+li {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  background-color: #FFD68b;
+}
+
+.logo>a {
+  width: auto;
+  height: 100%;
+  color: #754C00;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.navbar>ul {
+  float: left;
+  list-style: none;
+  display: flex;
+}
+
+.navbar>ul>li {
+  padding: 0px 2px;
+  margin: 20px;
+}
+
+.navbar>ul>li>a {
+  color: #000;
+  font-weight: 900;
+  transition: all .2s linear;
+}
+
+.content>a:hover {
+  color: #FFFFFF;
+}
+
+/* Main */
+
+main {
+  grid-area: main;
+}
+
+.masthead {
+  display: grid;
+  /* grid-template-columns: 100%;
+  grid-template-rows: 100%; */
+  /* height: 100%; */
+  height: 100vh;
+  /* width: 100vw; */
+  background-image: url(./img/backgroundImg.png);
+  background-size: cover;
+}
+
+.masthead>div {
+  /* height: 100%; */
+  display: grid;
+  align-items: center;
+  margin: 50px;
+}
+
+.masthead>div>p {
+  width: 100%;
+  color: #fff;
+  font-size: 42px;
+}
+
+.name {
+  font-size: 100px;
+  color: #FFD68A;
+}
+
+/* row */
+
+.aboutMePage {
+  display: block;
+  padding: 70px;
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.titleHeading>h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.about-content>div>img {
+  display: block;
+  /* max-width: 30%;
+  max-height:30%; */
+  margin-left: auto;
+  margin-right: 150px;
+  width: 45%;
+  border-radius: 3%;
+}
+
+.intro {
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 10%;
+  padding-left: 0;
+  float: left;
+}
+
+.intro>h3 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* projectPage */
+
+.projectPage {
+  background-color: #FFF3D9;
+  display: block;
+  padding: 40px;
+  /* height: 100vh; */
+}
+
+.workList {
+
+  display: flex;
+  margin-bottom: 40px;
+  padding: 0 30px;
+  /* display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  max-height: 600px;
+  margin-bottom: 40px; */
+}
+
+.container {
+  position: relative;
+  margin: 10px;
+  width: 50%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  object-fit: cover;
+}
+
+.PROcontent {
+  /* font-size: 10px;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  text-transform: capitalize;
+  text-align: center; */
+
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.PROtitle {
+  font-weight: bold;
+}
+
+.container:hover .PROcontent {
+  height: 100%;
+}
