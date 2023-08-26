@@ -14,7 +14,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  background: #FFD68A;
+  background: #60A3D9;
 }
 
 h1,
@@ -26,7 +26,8 @@ h4 {
 
 p,
 a,
-li {
+li,
+div {
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   text-decoration: none;
@@ -41,13 +42,13 @@ header {
   width: 100%;
   height: 70px;
   align-items: center;
-  background-color: #FFD68b;
+  background-color: #60A3D9;
 }
 
 .logo>a {
   width: auto;
   height: 100%;
-  color: #754C00;
+  color: #145DA0;
   font-size: 30px;
   font-weight: 900;
   margin-left: 20px;
@@ -65,7 +66,7 @@ header {
 }
 
 .navbar>ul>li>a {
-  color: #000;
+  color: #145DA0;
   font-weight: 900;
   transition: all .2s linear;
 }
@@ -106,10 +107,11 @@ main {
 
 .name {
   font-size: 100px;
-  color: #FFD68A;
+  color: #60A3D9;
 }
 
 /* row */
+/*--------------------- aboutb me page----------------- */
 
 .aboutMePage {
   display: block;
@@ -156,7 +158,7 @@ main {
 /* projectPage */
 
 .projectPage {
-  background-color: #FFF3D9;
+  background-color: #BFD7ED;
   display: block;
   padding: 40px;
   /* height: 100vh; */
@@ -204,7 +206,7 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #FFD68b;
+  background-color: #60A3D9;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -226,9 +228,50 @@ main {
 
 .PROtitle {
   font-weight: bold;
-  color: #754C00;
+  color: #0074B7;
 }
 
 .container:hover .PROcontent {
   height: 100%;
+}
+
+/*--------------- Project in Details ------------------ */
+
+.project-in-details {
+  display: block;
+  padding: 70px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.points {
+  padding-bottom: 4%;
+}
+
+.btn1 {
+  background-color: #f1f1f1;
+  color: #145DA0;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.btn1:hover {
+  background-color: #145DA0;
+  color: #BFD7ED;
 }
