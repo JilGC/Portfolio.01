@@ -3,6 +3,9 @@
 
 <head>
   <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
   <!-- font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +23,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
 
-  <title>Portfolio</title>
+  <link rel="icon" href="img/avatar.png">
+  <title>Jil Patel's Portfolio</title>
 </head>
 
 <body>
@@ -31,18 +39,18 @@
   <header class="header">
     <!-- logo -->
     <div class="logo">
-      <a href="#">Portfolio</a>
+      <a href="#masthead">Jil Patel</a>
       <!-- <a href="index.html"><img src="img/img01=1.png" alt="imageone"></a> -->
     </div>
     <!-- extra links -->
-    <div>
+    <div class="links">
       <nav class="navbar">
         <ul>
-          <li class="content"><a href="index.html">Home</a></li>
-          <li class="content"><a href="index.html">About</a></li>
-          <li class="content"><a href="index.html">Projects</a></li>
-          <li class="content"><a href="index.html">Contact</a></li>
-          <li class="content"><a href="index.html">Social</a></li>
+          <li class="content"><a href="#masthead">Home</a></li>
+          <li class="content"><a href="#aboutMePage">About</a></li>
+          <li class="content"><a href="#projectPage">Projects</a></li>
+          <li class="content"><a href="#contactMe">Contact</a></li>
+          <li class="content"><a href="#socialMedia">Social</a></li>
         </ul>
       </nav>
     </div>
@@ -51,7 +59,7 @@
   <main>
     <!-- section 1 -->
 
-    <section class="masthead">
+    <section class="masthead" id="masthead">
       <div>
         <p>
           Hello, my name is<br><span class="name">Jil Patel</span><br>
@@ -62,113 +70,348 @@
 
     <!--------------------------------------- About Me ------------------------------------>
 
-    <section class="aboutMePage">
-      <div class="titleHeading">
+    <section class="aboutMePage" id="aboutMePage">
+      <div class="titleHeading-2">
         <h2>About Me</h2>
       </div>
 
       <div class="about-content">
+
         <div>
           <img src="img/aboutImg.png" alt="aboutimage">
         </div>
+
         <div class="intro">
-          <h3>Why do we use it?</h3>
-          <p>t is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-            desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-            over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+          <h2>So, who am I?</h2>
+          <p>"Hello, I'm Jil Patel, a software developer passionate about transforming ideas into functional,
+            user-centric solutions. With a solid foundation in various programming languages and a knack for
+            problem-solving, I specialize in crafting efficient and innovative software. I thrive on collaborating
+            with
+            teams to create robust applications that make a difference. Let's build something great together!"</p>
+
+
         </div>
+
       </div>
 
     </section>
 
     <!--------------------------------------- Projects Page ------------------------------------>
 
-    <section class="projectPage">
-      <div class="titleHeading">
+    <section class="projectPage" id="projectPage">
+      <div class="titleHeading-1">
         <h2>Projects</h2>
       </div>
+      <div class="workContainer">
+        <div class="workList-1">
 
-      <div class="workList">
-        <div class="container">
-          <img src="img/project-1.jpg" alt="image two">
-          <div class="PROcontent">
-            <div class="text">
-              <p><span class="PROtitle">Weather App</span><br>
-                JavaScritp, HTML, CSS (OpenWeather API)</p>
+          <!-- Medical Records -->
+          <div class="container">
+            <img src="img/project-3.jpg" alt="image two">
+            <div class="PROcontent">
+              <a href="#project1">
+                <div class="text">
+                  <p><span class="PROtitle">Medical Records</span><br>
+                    ExpressJS & MongoDB</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- Inventory Managemnet -->
+          <div class="container">
+            <img src="img/project-2.jpg" alt="image two">
+            <div class="PROcontent">
+              <div class="text">
+                <p><span class="PROtitle">Inventory Management System</span><br>
+                  ASP.NET & SQL</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <img src="img/project-2.jpg" alt="image two">
-          <div class="PROcontent">
-            <div class="text">
-              <p><span class="PROtitle">Inventory Management System</span><br>
-                ASP.NET & SQL</p>
+
+        <div class="workList-2">
+          <!-- Weather App -->
+          <div class="container">
+            <img src="img/project-1.jpg" alt="image two">
+            <div class="PROcontent">
+              <div class="text">
+                <p><span class="PROtitle">Weather App</span><br>
+                  JavaScritp, HTML, CSS (OpenWeather API)</p>
+              </div>
+            </div>
+          </div>
+          <!-- Online Banking -->
+          <div class="container">
+            <img src="img/project-4.jpg" alt="image two">
+            <div class="PROcontent">
+              <div class="text">
+                <p><span class="PROtitle">Online Banking Systme</span><br>
+                  Java & SQL</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="container">
-          <img src="img/project-3.jpg" alt="image two">
-          <div class="PROcontent">
-            <div class="text">
-              <p><span class="PROtitle">Medical Records</span><br>
-                ExpressJS & MongoDB</p>
+      </div>
+
+    </section>
+
+    <!--------------------------------------- Project Details ------------------------------------>
+
+    <!---------------------------------- project #1---------------------------->
+    <section class="project-1-in-details" id="project1">
+
+      <div class="titleHeading-2">
+        <h2>Project #1</h2>
+      </div>
+
+      <div class="columns">
+        <div class="columnleft-1">
+          <div class="title-text">Medical Records</div>
+          <ul class="points">
+            <li>Developed a web application named “MedRec” that holds records of patients.</li>
+            <li>Implemented Google Authentication service for user login and registration.</li>
+            <li>It allows the users to create, update and delete records.</li>
+            <li>Proper Implementation of ExpressJS web framework and HBS templating for UI.</li>
+            <li>Used MongoDB and Mongoose to store and connect to the data.</li>
+          </ul>
+          <a href="#" class="btn1">View Demo</a>
+        </div>
+
+        <div class="columnRight-1">
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>NodeJS</p>
+              <P>49%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="49%" style="max-width: 49%;"></span>
             </div>
           </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>Handlebars</p>
+              <P>39%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="39%" style="max-width: 39%;"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>MongoDB</p>
+              <P>12%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="12%" style="max-width: 12%;"></span>
+            </div>
+          </div>
+
         </div>
-        <div class="container">
-          <img src="img/project-4.jpg" alt="image two">
-          <div class="PROcontent">
-            <div class="text">
-              <p><span class="PROtitle">Online Banking Systme</span><br>
-                Java & SQL</p>
+      </div>
+    </section>
+
+    <!---------------------------------- project #2---------------------------->
+    <section class="project-2-in-details" id="project-2">
+
+      <div class="titleHeading-1">
+        <h2>Project #2</h2>
+      </div>
+
+      <div class="columns">
+        <div class="columnleft-2">
+          <div class="title-text">Inventory Management System</div>
+          <ul class="points">
+            <li>Developed a web-based inventory management system using ASP.NET MVC and SQL Server.</li>
+            <li>Implemented features for adding, updating, and tracking inventory items.</li>
+            <li>Integrated user authentication and role-based access control for secure data management.</li>
+          </ul>
+          <a href="#" class="btn1">View Demo</a>
+        </div>
+
+        <div class="columnRight-2">
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>C#</p>
+              <P>80%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="80%" style="max-width: 80%;"></span>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>SQL</p>
+              <P>20%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="20%" style="max-width: 20%;"></span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!--------------------------------------- Project Details ------------------------------------>
+    <!---------------------------------- project #3---------------------------->
+    <section class="project-1-in-details" id="project-3">
 
-    <section class="project-in-details">
-
-      <!---------------------------------- project #1---------------------------->
-
-      <div class="titleHeading">
-        <h2>Project #1</h2>
+      <div class="titleHeading-2">
+        <h2>Project #3</h2>
       </div>
 
       <div class="columns">
-        <div class="columnLeft">
+        <div class="columnleft-1">
           <div class="title-text">Weather App</div>
           <ul class="points">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+            <li>Developed a web app using HTML, JavaScript, and CSS that provides the weather info of over 10,000
+              cities.</li>
+            <li>Dispatched weather information based on user input with 90% accuracy using OpenWeather API</li>
+            <li>Implemented HTML and CSS to display content and extend functionally for a user-friendly interface.
+            </li>
+            <li>Integrated Geolocation and OpenCage Geocoding API to provide the weather info based on the user’s
+              current location as the app is launched while showing images related to the user’s input.</li>
           </ul>
-          <a href="#" class="btn1">Link Button</a>
+          <a href="#" class="btn1">View Demo</a>
         </div>
 
-        <div class="columnRight">
-          <div class="bars">
+        <div class="columnRight-1">
+
+          <div class="skill-bar">
             <div class="info">
-              <span>Node.js</span>
-              <span>100%</span>
-              <div class="line node"></div>
+              <p>JavaScript</p>
+              <P>29%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="29%" style="max-width: 29%;"></span>
             </div>
           </div>
-          <div class="bars">
+
+          <div class="skill-bar">
             <div class="info">
-              <span>Node.js</span>
-              <span>80%</span>
-              <div class="line node"></div>
+              <p>HTML</p>
+              <P>37%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="37%" style="max-width: 37%;"></span>
             </div>
           </div>
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>CSS</p>
+              <P>34%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="34%" style="max-width: 34%;"></span>
+            </div>
+          </div>
+
         </div>
+      </div>
+    </section>
+
+    <!---------------------------------- project #4---------------------------->
+    <section class="project-2-in-details" id="project-4">
+
+      <div class="titleHeading-1">
+        <h2>Project #4</h2>
+      </div>
+
+      <div class="columns">
+        <div class="columnleft-2">
+          <div class="title-text">Online Banking System</div>
+          <ul class="points">
+            <li>Secure login with username/password or multifactor authentication.</li>
+            <li>Ability to manage multiple accounts per user (savings, checking, etc.).</li>
+            <li>Support for deposit, withdrawal, and fund transfer between accounts and Transaction validation, error
+              handling, and reconciliation mechanisms.</li>
+            <li>Intuitive and user-friendly interface for seamless navigation and easy access to banking
+              functionalities.</li>
+          </ul>
+          <a href="#" class="btn1">View Demo</a>
+        </div>
+
+        <div class="columnRight-2">
+
+          <div class="skill-bar">
+            <div class="info">
+              <p>Python</p>
+              <P>100%</P>
+            </div>
+            <div class="bar">
+              <span class="progress" per="100%" style="max-width: 100%;"></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------------ contact-------------------------------------------------->
+
+    <section class="contact" id="contactMe">
+
+      <div class="titleHeading-2">
+        <h2>Contact Me</h2>
+      </div>
+
+      <div class="contact-container">
+
+        <div class="myDetails">
+          <h1>My Details</h1>
+
+          <div class="cnt">
+            <div class="details">
+              <img src="img/profile.png" alt="">
+              <p>Name: Jil Patel</p>
+            </div>
+            <div class="details">
+              <img src="img/location.png" alt="">
+              <p>Adress: <br> Barrie, Ontario, Canada</p>
+            </div>
+            <div class="details">
+              <img src="img/email1.png" alt="">
+              <p>Email: <br> Jilpatel8347@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="messageMe">
+          <h1>Message me</h1>
+          <form onsubmit="emailSend(); reset(); return false;">
+            <input type="name" placeholder="Name" id="nameInput">
+            <input type="email" placeholder="Email" id="emailInput">
+            <textarea type="textarea" placeholder="Message" id="messageInput"></textarea>
+            <button type="submit" class="btn2">Send message</button>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!------------------------------------------------------ Social ---------------------------------------------------------->
+
+    <section class="socialMedia" id="socialMedia">
+
+      <div class="titleHeading-1">
+        <h2>Social Media</h2>
+      </div>
+
+      <div class="social-container">
+
+        <a href="mailto:Jilpatel8347@gmail.com? subject=subject text" class="element" target=”_blank”><img
+            src="img/email.png" alt="insta"></a>
+
+        <a href="https://www.linkedin.com/in/jilpatel2001/" class="element" target=”_blank”><img src="img/linkedin.png"
+            alt="insta"></a>
+
+        <a href="https://github.com/JilGC" class="element" target=”_blank”><img src="img/github.png" alt="insta"></a>
+
       </div>
 
     </section>
@@ -176,10 +419,16 @@
   </main>
   <footer>
     <div class="details">
-      <!-- deatils of student -->
       <p>Designed by: Jil Patel & 200475810</p>
     </div>
   </footer>
+
+  <!------------ JavaScript ------------->
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script src="script.js"></script>
+  <script src="email.js"></script>
 </body>
 
 </html>
