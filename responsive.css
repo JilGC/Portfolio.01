@@ -1,0 +1,258 @@
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    /*---------- Navbar Responsive------------- */
+    header {
+        display: block;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo>a {
+        /* margin-bottom: 15px; */
+        display: flex;
+        margin: 0px;
+        color: #CEDEF8;
+        font-size: 30px;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar>ul {
+        display: flex;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        /* min-width: 300px;
+      width: auto;
+      padding-left: 40px; */
+    }
+
+    .navbar>ul>li {
+        padding: 3px 6px;
+        margin: 3px;
+        /* padding: 0px 2px;
+      margin: 10px; */
+    }
+
+    /*---------- Masthead- Responsive------------ */
+    .masterhead-1 {
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .masthead>div>p {
+        width: 100%;
+        color: #222831;
+        font-size: 20px;
+        text-shadow: 1px 1px 2px #222831;
+    }
+
+    .name {
+        font-size: 70px;
+        color: #F5F7F8;
+    }
+
+    /*---------- About Me Responsive------------- */
+    .aboutMePage {
+        padding: 25px 15px;
+    }
+
+    .intro {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .aboutPicture {
+        margin: 15px;
+    }
+
+    .about-content>div>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border-radius: 6%;
+    }
+
+    .intro {
+        padding: 15px;
+    }
+
+    .intro>p {
+        word-spacing: 5px;
+        line-height: 1.4;
+    }
+
+    .about-content {
+        display: block;
+        overflow: hidden;
+    }
+
+    /*---------- Project Page Responsive------------- */
+    .projectPage {
+        padding: 30px;
+    }
+
+    .container {
+        height: 140px;
+        width: 140px;
+        border-radius: 150px;
+    }
+
+    .container>img {
+        height: 100%;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    /*---------- Projets in Details Responsive------------- */
+    .projectType01 {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .titleHeading-2>h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .titleHeading-1>h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columnleft-1 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    /* project page 2 */
+
+    .projectType02 {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columnleft-2 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    /*---------- Contact Me Responsive------------- */
+    .contact {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 100%;
+        width: auto;
+        padding: 25px;
+    }
+
+    .myDetails {}
+
+    .myDetails>h1 {
+        display: flex;
+        margin: 5px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details {
+        margin: 10px;
+
+    }
+
+    .details>p {
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .messageMe>h1 {
+        display: flex;
+        margin: 5px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nameInput {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    #emailInput {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    #messageInput {
+        padding: 10px;
+        font-size: 15px;
+        padding-left: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 20px;
+    }
+
+    /*---------- Social for Responsive------------- */
+
+    .socialMedia {
+        padding: 10px;
+    }
+
+    .social-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .element {
+        margin: 5%;
+        background-color: #CEDEF8;
+        border-radius: 10px;
+
+        opacity: 1;
+        transition: 0.2s;
+    }
+
+    .element:hover {
+        opacity: 0.5
+    }
+
+    .element>img {
+        height: 40px;
+        padding: 5px;
+        padding-bottom: 0px;
+    }
+}
