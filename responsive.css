@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 250px) and (max-width: 600px) {
 
     /*---------- Navbar Responsive------------- */
     header {
@@ -12,7 +12,7 @@
         display: flex;
         margin: 0px;
         color: #CEDEF8;
-        font-size: 30px;
+        font-size: 20px;
 
         justify-content: center;
         align-items: center;
@@ -31,8 +31,10 @@
     .navbar>ul>li {
         padding: 3px 6px;
         margin: 3px;
-        /* padding: 0px 2px;
-      margin: 10px; */
+    }
+
+    .navbar>ul>li>a {
+        font-size: 15px;
     }
 
     /*---------- Masthead- Responsive------------ */
@@ -43,14 +45,14 @@
 
     .masthead>div>p {
         width: 100%;
-        color: #222831;
+        color: #ffffff;
         font-size: 20px;
         text-shadow: 1px 1px 2px #222831;
     }
 
     .name {
         font-size: 70px;
-        color: #F5F7F8;
+        color: #ffda47;
     }
 
     /*---------- About Me Responsive------------- */
@@ -96,14 +98,13 @@
 
     .container {
         height: 140px;
-        width: 140px;
-        border-radius: 70px;
+        width: 180px;
+        border-radius: 20px;
     }
 
     .container>img {
         height: 100%;
         width: 100%;
-        border-radius: 30px;
     }
 
     /*---------- Projets in Details Responsive------------- */
@@ -133,6 +134,21 @@
         margin: 10px;
     }
 
+    .columnleft-1>h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .columnleft-2>h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .columnRight-1,
+    .columnRight-2 {
+        margin: 0px 30px;
+    }
+
     /* project page 2 */
 
     .projectType02 {
@@ -159,7 +175,8 @@
         display: block;
         height: 100%;
         width: auto;
-        padding: 25px;
+        margin: 10px;
+        padding: 35px;
     }
 
     .myDetails {}
@@ -174,6 +191,7 @@
 
     .details {
         margin: 10px;
+        float: left;
 
     }
 
