@@ -49,12 +49,13 @@ header {
   height: 70px;
   align-items: center;
   background-color: #222831;
+  overflow: hidden;
 
   position: fixed;
   top: 0;
   width: 100%;
   transition: top 0.3;
-  z-index: 1;
+  z-index: 100;
 }
 
 .logo>a {
@@ -103,23 +104,28 @@ main {
 
 .masthead {
   display: grid;
-  /* grid-template-columns: 100%;
-  grid-template-rows: 100%; */
-  /* height: 100%; */
   height: 100vh;
-  /* width: 100vw; */
   background-image: url(./img/backgroundImg.png);
   background-size: cover;
+  padding: 50px;
 }
 
 .masterhead-1 {
-  display: grid;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 55px;
+
+  /* display: grid;
+  justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 40px;
+  width: 50%;
+  height: 70%; */
 }
 
 .masthead>div>p {
-  width: 100%;
+  margin: 0;
+  padding: 0;
   color: #ffffff;
   font-size: 42px;
   /* background-color: #888888; */
@@ -129,6 +135,55 @@ main {
 .name {
   font-size: 100px;
   color: #ffda47;
+}
+
+/*======================== resumeLinks====================== */
+
+.resumeLinks {
+  margin-top: 45px;
+  width: 50%;
+}
+
+.resume {
+  width: 170px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffda47;
+  color: #222831;
+  font-size: 15px;
+  font-weight: bold;
+  /* padding: 15px 45px; */
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.resume>a {
+  color: #222831;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 9px;
+}
+
+.resume:hover {
+  background-color: white;
+  color: #ffda47;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .6) inset;
+}
+
+.resume>img {
+  /* display: flex; */
+  padding: 5px 0;
+  height: 30px;
 }
 
 /* row */
@@ -446,7 +501,8 @@ main {
 
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
+  height: 420px;
+  width: 900px;
   max-width: 1000px;
   /* width: 1400px; */
 
@@ -547,8 +603,8 @@ textarea {
   resize: none;
   outline: none;
   margin-bottom: 10px;
-
-  scroll-behavior: auto
+  scroll-behavior: auto;
+  overflow: auto;
 }
 
 .btn2 {
