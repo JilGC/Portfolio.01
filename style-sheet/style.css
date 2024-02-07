@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* margin: 0px; */
+  /* background: #F5F7F8; */
+  background-color: #E8E8E8;
+
+  margin: 0px;
+  /* display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-areas:
+    'header header header header'
+    'main main main main'
+    'footer footer footer footer' */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p,
+a,
+li,
+div {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  background-color: #17181b;
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3;
+  z-index: 100;
+}
+
+.logo>a {
+  width: auto;
+  height: 100%;
+  color: #ffda47;
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 70px;
+  transition: all .1s linear;
+
+}
+
+.logo>a:hover {
+  color: #F5F7F8;
+}
+
+.navbar {}
+
+.navbar>ul {
+  list-style: none;
+  display: flex;
+  margin-right: 40px;
+}
+
+.navbar>ul>li {
+  padding: 0px 2px;
+  margin: 20px;
+}
+
+.navbar>ul>li>a {
+  color: #ffda47;
+  font-weight: 900;
+  transition: all .1s linear;
+}
+
+.content>a:hover {
+  color: #F5F7F8;
+}

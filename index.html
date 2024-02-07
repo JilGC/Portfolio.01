@@ -6,8 +6,13 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="style-sheet/style.css">
+  <link rel="stylesheet" href="style-sheet/home.css">
+  <link rel="stylesheet" href="style-sheet/about.css">
+  <link rel="stylesheet" href="style-sheet/projects.css">
+  <link rel="stylesheet" href="style-sheet/projects-in-details.css">
+  <link rel="stylesheet" href="style-sheet/contact.css">
+  <link rel="stylesheet" href="style-sheet/social.css">
 
   <!-- <link rel="stylesheet" href="stylesheet.css"> -->
   <!-- font -->
@@ -72,10 +77,11 @@
         </p>
 
         <div class="resumeLinks">
-          <div class="resume">
-            <a href="./Files/Resume_02.pdf" target="_blank">Resume</a>
-            <img src="img/downloadResume.png" alt="">
-          </div>
+          <button class="resume">
+            <a href="./Files/Resume_02.pdf" target="_blank">
+              <p>DOWNLOAD CV</p>
+            </a>
+          </button>
 
           <!-- <a href="./Files/Resume_02.pdf" class="resume">Contact</a> -->
         </div>
@@ -111,61 +117,65 @@
       <div class="titleHeading-1">
         <h2>Projects</h2>
       </div>
+
       <div class="workContainer">
 
         <div class="workList-1">
-          <!-- Medical Records -->
-          <a href="#project-1">
-            <div class="container">
-              <img src="img/project-3.jpg" alt="image two">
-              <div class="PROcontent">
-                <div class="text">
-                  <p><span class="PROtitle">Medical Records</span><br>
-                    ExpressJS & MongoDB</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <!-- Inventory Managemnet -->
-          <a href="#project-2">
-            <div class="container">
-              <img src="img/project-2.jpg" alt="image two">
-              <div class="PROcontent">
-                <div class="text">
-                  <p><span class="PROtitle">Inventory Management System</span><br>
-                    ASP.NET & SQL</p>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
 
-        <div class="workList-2">
-          <!-- Weather App -->
-          <a href="#project-3">
-            <div class="container">
-              <img src="img/project-1.jpg" alt="image two">
-              <p>Hi My name is Jil</p>
-              <div class="PROcontent">
-                <div class="text">
-                  <p><span class="PROtitle">Weather App</span><br>
-                    JavaScritp, HTML, CSS (OpenWeather API)</p>
+          <div class="proj-1">
+            <a href="#project-1">
+              <div class="tile">
+                <img class="img-00" src="img/proj-1.png" id="img-010" alt="">
+                <div class="secTile">
+                  <p class="no">#1</p>
+                  <p><span class="PROtitle">Medical Records</span><br></p>
+                  <p class="white-font">ExpressJS & MongoDB</p>
                 </div>
               </div>
-            </div>
-          </a>
-          <!-- Online Banking -->
-          <a href="#project-4">
-            <div class="container">
-              <img src="img/project-4.jpg" alt="image two">
-              <div class="PROcontent">
-                <div class="text">
-                  <p><span class="PROtitle">Online Banking Systme</span><br>
-                    Java & SQL</p>
+            </a>
+
+          </div>
+
+          <div class="proj-1">
+            <a href="#project-2">
+              <div class="tile">
+                <img class="img-00" src="img/proj-2.png" id="img-020" alt="">
+                <div class="secTile">
+                  <p class="no">#2</p>
+                  <p><span class="PROtitle">Inventory Management System</span><br></p>
+                  <p class="white-font">ASP.NET & SQL</p>
                 </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
+
+          <div class="proj-1">
+            <a href="#project-3">
+              <div class="tile">
+                <img class="img-00" src="img/proj-3.png" id="img-030" alt="">
+                <div class="secTile">
+                  <p class="no">#3</p>
+                  <p><span class="PROtitle">Weather App</span><br></p>
+                  <p class="white-font">JavaScritp, HTML, CSS (OpenWeather API)</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="proj-1">
+            <a href="#project-4">
+              <div class="tile">
+                <img class="img-00" src="img/proj-4.png" id="img-040" alt="">
+                <div class="secTile">
+                  <p class="no">#4</p>
+                  <p><span class="PROtitle">Online Banking <br>Systme</span><br></p>
+                  <p class="white-font">Java & SQL</p>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+
         </div>
       </div>
 
@@ -435,7 +445,7 @@
   </main>
   <footer>
     <div class="details">
-      <p>Designed by: Jil Patel & 200475810</p>
+      <p>Designed by: Jil Patel</p>
     </div>
   </footer>
 

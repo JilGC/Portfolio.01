@@ -1,0 +1,63 @@
+<section class="projectPage" id="projectPage">
+      <div class="titleHeading-1">
+        <h2>Projects</h2>
+      </div>
+      <div class="workContainer">
+
+        <div class="workList-1">
+
+          <div class="proj-1">
+            <p>this is project</p>
+          </div>
+
+          <!-- Medical Records -->
+          <a href="#project-1" class="a-href">
+            <div class="container">
+              <!-- <img src="img/project-3.jpg" alt="image two"> -->
+              <div class="text">
+                <p><span class="PROtitle">Medical Records</span><br>
+                  ExpressJS & MongoDB</p>
+              </div>
+            </div>
+          </a>
+          <!-- Inventory Managemnet -->
+          <a href="#project-2" class="a-href">
+            <div class="container">
+              <!-- <img src="img/project-2.jpg" alt="image two"> -->
+
+              <div class="text">
+                <p><span class="PROtitle">Inventory Management System</span><br>
+                  ASP.NET & SQL</p>
+              </div>
+            </div>
+          </a>
+          <!-- </div> -->
+
+          <!-- <div class="workList-2"> -->
+          <!-- Weather App -->
+          <a href="#project-3" class="a-href">
+            <div class="container">
+              <!-- <img src="img/project-1.jpg" alt="image two"> -->
+
+              <div class="text">
+                <p><span class="PROtitle">Weather App</span><br>
+                  JavaScritp, HTML, CSS (OpenWeather API)</p>
+              </div>
+            </div>
+          </a>
+          <!-- Online Banking -->
+          <a href="#project-4" class="a-href">
+            <div class="container">
+              <!-- <img src="img/project-4.jpg" alt="image two"> -->
+
+              <div class="text">
+                <p><span class="PROtitle">Online Banking Systme</span><br>
+                  Java & SQL</p>
+              </div>
+            </div>
+          </a>
+          
+        </div>
+      </div>
+
+    </section>

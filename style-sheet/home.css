@@ -1,0 +1,83 @@
+/* Main */
+
+main {
+    grid-area: main;
+}
+
+.masthead {
+    display: grid;
+    height: 100vh;
+    background-image: url(../img/backgroundImg.png);
+    background-size: cover;
+    padding: 50px;
+}
+
+.masterhead-1 {
+    margin-top: 12%;
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+.masthead>div>p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 40px;
+    /* background-color: #888888; */
+    text-shadow: 1px 1px 2px #17181b;
+}
+
+.name {
+    font-size: 100px;
+    color: #ffda47;
+}
+
+/*======================== resumeLinks====================== */
+
+.resumeLinks {
+    margin-top: 45px;
+    width: 50%;
+}
+
+.resume {
+
+    width: 170px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffda47;
+    color: #17181b;
+    font-size: 15px;
+    font-weight: bold;
+    /* padding: 15px 45px; */
+    margin: 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.resume>a>p {
+    color: #17181b;
+    font-size: 14px;
+    font-weight: bold;
+    /* margin: 9px; */
+}
+
+.resume:hover {
+    background-color: white;
+    color: #ffda47;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .6) inset;
+}
+
+.resume>img {
+    /* display: flex; */
+    padding: 5px 0;
+    height: 30px;
+}
