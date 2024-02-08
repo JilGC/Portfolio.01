@@ -3,78 +3,49 @@
 .projectPage {
     background-color: #17181b;
     display: block;
-    padding: 70px;
+    padding: 70px 0px;
 }
 
-.workList-1,
-.workList-2 {
+.workContainer {
+    height: auto;
+    width: auto;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-
-.proj-1 {
-    position: relative;
-    height: 240px;
-    width: 330px;
-    background-color: rgb(255, 216, 61);
-    margin: 30px;
-    border-radius: 10px;
-}
-
 
 .tile {
-    margin: auto;
-    padding: 20px;
+    position: relative;
+    width: 250px;
+    height: 240px;
+    margin: 0px 30px;
+    background-color: #ffd83d;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tile:hover {}
-
-.proj-1:hover {}
-
-.img-00 {
-    margin: auto;
-    margin-bottom: 25px;
-    display: block;
+.tile>img {
+    height: 50%;
+    width: 50%;
+    margin-bottom: 60px;
 }
 
-#img-010 {
-    height: 130px;
-    width: 130px;
-}
-
-#img-020 {
-    height: 150px;
-    width: 150px;
-    opacity: 0.9;
-}
-
-#img-030,
-#img-040 {
-    margin-top: 20px;
-    height: 100px;
-    width: 100px;
-    opacity: 0.7;
-}
-
-.PROtitle {
-    font-weight: bold;
-    color: #17181b;
-}
-
-.white-font {
-    color: black;
-    font-size: 15px;
-    margin-top: 5px;
-}
-
-.no {
-    color: #17181b;
+.secTile>h1 {
+    font-weight: 500;
     font-size: 40px;
-    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.secTile>h2 {
+    font-size: 20px;
+    padding-bottom: 5px;
 }
 
 .secTile {
+    color: #17181b;
     padding: 8px;
     display: block;
     position: absolute;
@@ -94,5 +65,5 @@
 
 .tile:hover .secTile {
     height: 70%;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }

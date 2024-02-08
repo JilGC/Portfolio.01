@@ -121,7 +121,7 @@ textarea {
     overflow: auto;
 }
 
-.btn2 {
+.subBtn {
     background-color: #ffda47;
     color: #17181b;
     font-size: 20px;
@@ -129,15 +129,102 @@ textarea {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 15px;
     text-align: center;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
+
+    border: 1px solid #ffd83d;
 
 }
 
-.btn2:hover {
-    background-color: #F5F7F8;
-    color: #ffda47;
-    /* border-style: solid; */
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .6) inset;
+.subBtn:hover {
+    background-color: #17181b;
+    color: #ffd83d;
+    transition-duration: 0.2s;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+    .contact {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 100%;
+        width: auto;
+        margin: 10px;
+        padding: 35px;
+    }
+
+    .myDetails {}
+
+    .myDetails>h1 {
+        display: flex;
+        margin: 5px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details {
+        margin: 10px;
+        float: left;
+
+    }
+
+    .details>p {
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .messageMe>h1 {
+        display: flex;
+        margin: 5px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nameInput {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    #emailInput {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    #messageInput {
+        padding: 10px;
+        font-size: 15px;
+        padding-left: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 20px;
+    }
 }

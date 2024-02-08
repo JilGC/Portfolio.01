@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style-sheet/style.css">
+  <link rel="stylesheet" href="style-sheet/responsive.css">
+
+
   <link rel="stylesheet" href="style-sheet/home.css">
   <link rel="stylesheet" href="style-sheet/about.css">
   <link rel="stylesheet" href="style-sheet/projects.css">
@@ -70,20 +73,10 @@
 
     <section class="masthead" id="masthead">
       <div class="masterhead-1">
-        <p>
-          Hello, my name is<br>
-          <span class="name">Jil Patel</span><br>
-          <span class="developer">And I'm a Software Developer</span>
-        </p>
-
-        <div class="resumeLinks">
-          <button class="resume">
-            <a href="./Files/Resume_02.pdf" target="_blank">
-              <p>DOWNLOAD CV</p>
-            </a>
-          </button>
-
-          <!-- <a href="./Files/Resume_02.pdf" class="resume">Contact</a> -->
+        <div class="letters">
+          <p><span class="hello">Hello </span><span class="im">I'm <br>Jil Patel</span></p>
+          <p class="professional">I'm A Creative Web Designer & Developer.</p>
+          <a href="./Files/Resume_02.pdf" target="_blank" class="resume">Download CV</a>
         </div>
       </div>
     </section>
@@ -120,63 +113,50 @@
 
       <div class="workContainer">
 
-        <div class="workList-1">
-
-          <div class="proj-1">
-            <a href="#project-1">
-              <div class="tile">
-                <img class="img-00" src="img/proj-1.png" id="img-010" alt="">
-                <div class="secTile">
-                  <p class="no">#1</p>
-                  <p><span class="PROtitle">Medical Records</span><br></p>
-                  <p class="white-font">ExpressJS & MongoDB</p>
-                </div>
-              </div>
-            </a>
-
+        <a href="#project-1">
+          <div class="tile">
+            <img src="img/proj-1.png" alt="">
+            <div class="secTile">
+              <h1>#1</h1>
+              <h2>Medical Records</h2>
+              <p>ExpressJS & MongoDB</p>
+            </div>
           </div>
+        </a>
 
-          <div class="proj-1">
-            <a href="#project-2">
-              <div class="tile">
-                <img class="img-00" src="img/proj-2.png" id="img-020" alt="">
-                <div class="secTile">
-                  <p class="no">#2</p>
-                  <p><span class="PROtitle">Inventory Management System</span><br></p>
-                  <p class="white-font">ASP.NET & SQL</p>
-                </div>
-              </div>
-            </a>
+        <a href="#project-2">
+          <div class="tile">
+            <img src="img/proj-2.png" alt="" style="height: 60%; width: 60%;">
+            <div class="secTile">
+              <h1>#2</h1>
+              <h2>Inventory Management System</h2>
+              <p>ASP.NET & SQL</p>
+            </div>
           </div>
+        </a>
 
-          <div class="proj-1">
-            <a href="#project-3">
-              <div class="tile">
-                <img class="img-00" src="img/proj-3.png" id="img-030" alt="">
-                <div class="secTile">
-                  <p class="no">#3</p>
-                  <p><span class="PROtitle">Weather App</span><br></p>
-                  <p class="white-font">JavaScritp, HTML, CSS (OpenWeather API)</p>
-                </div>
-              </div>
-            </a>
+        <a href="#project-3">
+          <div class="tile">
+            <img src="img/proj-3.png" alt="" style="opacity: 0.7;">
+            <div class="secTile">
+              <h1>#3</h1>
+              <h2>Weather App</h2>
+              <p>JavaScritp, HTML, CSS (OpenWeather API)</p>
+            </div>
           </div>
+        </a>
 
-          <div class="proj-1">
-            <a href="#project-4">
-              <div class="tile">
-                <img class="img-00" src="img/proj-4.png" id="img-040" alt="">
-                <div class="secTile">
-                  <p class="no">#4</p>
-                  <p><span class="PROtitle">Online Banking <br>Systme</span><br></p>
-                  <p class="white-font">Java & SQL</p>
-                  </p>
-                </div>
-              </div>
-            </a>
+        <a href="#project-4">
+          <div class="tile">
+            <img src="img/proj-4.png" alt="" style="opacity: 0.7;">
+            <div class="secTile">
+              <h1>#4</h1>
+              <h2>Online Banking <br>Systme</h2>
+              <p>Java & SQL</p>
+            </div>
           </div>
+        </a>
 
-        </div>
       </div>
 
     </section>
@@ -254,7 +234,7 @@
             <li>Implemented features for adding, updating, and tracking inventory items.</li>
             <li>Integrated user authentication and role-based access control for secure data management.</li>
           </ul>
-          <a href="#" class="btn1">View Demo</a>
+          <a href="#" class="btn2">View Demo</a>
         </div>
 
         <div class="columnRight-2">
@@ -301,7 +281,7 @@
             <li>Integrated Geolocation and OpenCage Geocoding API to provide the weather info based on the user’s
               current location as the app is launched while showing images related to the user’s input.</li>
           </ul>
-          <a href="https://jilgc.github.io/WeatherApp" target="_blank" class="btn1">View Demo</a>
+          <a href="https://jilgc.github.io/WeatherApp" target="_blank" class="btn3">View Demo</a>
         </div>
 
         <div class="columnRight-1">
@@ -358,7 +338,7 @@
             <li>Intuitive and user-friendly interface for seamless navigation and easy access to banking
               functionalities.</li>
           </ul>
-          <a href="#" class="btn1">View Demo</a>
+          <a href="#" class="btn4">View Demo</a>
         </div>
 
         <div class="columnRight-2">
@@ -412,7 +392,7 @@
             <input placeholder="Name" id="nameInput">
             <input type="email" placeholder="Email" id="emailInput">
             <textarea placeholder="Message" id="messageInput"></textarea>
-            <button type="submit" class="btn2">Send message</button>
+            <button type="submit" class="subBtn">Send Message</button>
           </form>
         </div>
 

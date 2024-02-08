@@ -45,7 +45,8 @@
     padding: 0.5%;
 }
 
-.btn1 {
+.btn1,
+.btn3 {
     background-color: #ffda47;
     color: #17181b;
     font-size: 15px;
@@ -53,17 +54,43 @@
     padding: 12px 15px;
     border: none;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: center;
-    transition-duration: 0.3s;
-    box-shadow: 0 0 5px 0.5px #000000;
+    transition-duration: 0.2s;
+    box-shadow: 5px 5px 5px #aaaaaa;
 }
 
-.btn1:hover {
+.btn1:hover,
+.btn3:hover {
     background-color: white;
     color: #ffda47;
     border: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, .6) inset;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.btn2,
+.btn4 {
+    background-color: #ffda47;
+    color: #17181b;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-duration: 0.2s;
+
+    border: 1px solid #ffd83d;
+    /* box-shadow: 5px 5px 5px #ffda47; */
+}
+
+.btn2:hover,
+.btn4:hover {
+    background-color: #17181b;
+    color: #ffd83d;
+    transition-duration: 0.2s;
+    /* box-shadow: 10px 10px 5px #ffda47; */
 }
 
 /* -------------------- Skill-Bar ----------------------- */
@@ -121,4 +148,67 @@
     display: block;
     padding: 70px;
     background-color: #17181b;
+}
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+    .projectType01 {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .titleHeading-2>h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .titleHeading-1>h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columnleft-1 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .columnleft-1>h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .columnleft-2>h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .columnRight-1,
+    .columnRight-2 {
+        margin: 0px 30px;
+    }
+
+    /* project page 2 */
+
+    .projectType02 {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columnleft-2 {
+        padding: 15px;
+        margin: 10px;
+    }
+
 }
