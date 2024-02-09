@@ -5,14 +5,23 @@
     padding: 70px;
 }
 
+.projectType02 {
+    display: block;
+    padding: 70px;
+    background-color: #17181b;
+}
+
 .pro-1-heading {
     color: #000000;
 }
 
 .columns {
     display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
+    /* grid-template-columns: 50% 50%; */
+    /* align-items: center; */
+
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
 }
 
 .columnleft-1 {
@@ -96,14 +105,16 @@
 /* -------------------- Skill-Bar ----------------------- */
 
 .columnRight-1 {
-    display: grid;
-    grid-row-gap: 15px;
+    /* margin: */
 }
 
 .columnRight-2 {
-    display: grid;
-    grid-row-gap: 15px;
+
     color: #CEDEF8;
+}
+
+.skill-bar {
+    margin: 20px 0;
 }
 
 .info {
@@ -144,11 +155,7 @@
 
 }
 
-.projectType02 {
-    display: block;
-    padding: 70px;
-    background-color: #17181b;
-}
+
 
 
 

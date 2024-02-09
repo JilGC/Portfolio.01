@@ -9,19 +9,19 @@ main {
     background-image: url(../img/backgroundImg.png);
     background-size: cover;
     padding: 50px;
+
+    display: grid;
+
 }
 
-.masterhead-1 {
-    height: 80%;
-    width: 50%;
-    margin: 80px 0px;
-    padding: 50px;
+.letters {
+    margin: auto;
+    margin-left: 80px;
 }
 
 .letters>p {
     margin-bottom: 30px;
 }
-
 
 .hello {
     color: #ffd83d;
@@ -39,8 +39,8 @@ main {
 .professional {
     color: #222831;
     background-color: #ffd83d;
-    width: 450px;
-    padding: 10px 18px;
+    width: fit-content;
+    padding: 8px 18px;
     letter-spacing: 1px;
     word-spacing: 5px;
 }
@@ -107,7 +107,7 @@ main {
         padding: 50px;
     }
 
-    .masterhead-1 {
+    .letters {
         height: 80%;
         width: 70%;
         margin: 100px 0px;
