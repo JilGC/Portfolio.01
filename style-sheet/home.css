@@ -66,10 +66,17 @@ main {
 
 
 @media screen and (min-width: 250px) and (max-width: 600px) {
+
+    .masthead {
+        background-color: #17181b;
+        background-image: none;
+    }
+
     header {
         display: block;
         height: auto;
         padding: 10px;
+        background-color: #0f1012;
     }
 
     .logo>a {
@@ -101,17 +108,16 @@ main {
 
     /*---------- Masthead- Responsive------------ */
     .masthead {
-        height: 700px;
-        background-image: url(../img/backgroundImg.png);
-        background-size: cover;
-        padding: 50px;
+        height: 100vh;
+        padding: 20px;
     }
 
     .letters {
-        height: 80%;
-        width: 70%;
-        margin: 100px 0px;
-        padding: 20px;
+        height: 40%;
+        width: auto;
+        margin-left: 10%;
+        /* padding: 40px; */
+        /* margin: auto; */
     }
 
     .letters>p {
@@ -121,26 +127,27 @@ main {
 
     .hello {
         color: #ffd83d;
-        font-size: 5em;
+        font-size: 3em;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-width: 2px;
     }
 
     .im {
         color: white;
-        font-size: 5em;
+        font-size: 2.5em;
         font-weight: 700;
     }
 
     .professional {
         color: #222831;
-        background-color: #ffd83d;
+        background-color: none;
         width: 250px;
-        padding: 10px 18px;
+        padding: 10px 12px;
         letter-spacing: 1px;
         word-spacing: 5px;
+        font-size: 2px;
 
-        font-size: 1em;
+        display: none;
     }
 
     .resume {

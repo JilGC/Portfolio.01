@@ -96,3 +96,9 @@ header {
 .content>a:hover {
   color: #F5F7F8;
 }
+
+
+/* 
+@media screen and (min-width: 250px) and (max-width: 600px) {
+
+} */
