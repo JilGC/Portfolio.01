@@ -92,14 +92,14 @@
     text-align: center;
     transition-duration: 0.2s;
 
-    border: 1px solid #ffd83d;
+    border: 1px solid #ffdb4c;
     /* box-shadow: 5px 5px 5px #ffda47; */
 }
 
 .btn2:hover,
 .btn4:hover {
     background-color: #17181b;
-    color: #ffd83d;
+    color: #ffdb4c;
     transition-duration: 0.2s;
     /* box-shadow: 10px 10px 5px #ffda47; */
 }

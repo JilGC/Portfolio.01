@@ -19,7 +19,7 @@
 
 .element>i {
     font-size: 60px;
-    color: #ffd83d;
+    color: #ffdb4c;
 }
 
 .element:hover i {
@@ -50,7 +50,7 @@
 
     .element>i {
         font-size: 30px;
-        color: #ffd83d;
+        color: #ffdb4c;
         background-color: none;
     }
 

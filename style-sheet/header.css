@@ -68,7 +68,7 @@ header {
 .logo>a {
   width: auto;
   height: 100%;
-  color: #ffda47;
+  color: #ffdb4c;
   font-size: 40px;
   font-weight: 900;
   margin-left: 70px;
@@ -94,7 +94,7 @@ header {
 }
 
 .navbar>ul>li>a {
-  color: #ffda47;
+  color: #ffdb4c;
   font-weight: 900;
   transition: all .1s linear;
 }

@@ -20,7 +20,7 @@
     position: relative;
     width: 250px;
     height: 230px;
-    background-color: #ffd83d;
+    background-color: #ffdb4c;
     border-radius: 10px;
     display: grid;
     place-items: center;
@@ -41,7 +41,7 @@
     width: 230px;
     height: 210px;
     padding: 10px;
-    background-color: #ffd83d;
+    background-color: #ffdb4c;
     border-radius: 10px;
     display: grid;
     place-items: center;
@@ -53,7 +53,7 @@
 }
 
 .tile:hover i {
-    color: #ffd83d;
+    color: #ffdb4c;
     transition-duration: 0.2s;
 }
 
@@ -76,13 +76,13 @@
 }
 
 .tile:hover .secTile {
-    color: #ffd83d;
+    color: #ffdb4c;
     transition-duration: 0.2s;
     color: #ffffff;
 }
 
 .tile:hover {
-    border: 1px solid #ffd83d;
+    border: 1px solid #ffdb4c;
     background-color: #17181b;
     transition-duration: 0.2s;
 }
@@ -110,7 +110,7 @@
         position: relative;
         width: 100px;
         height: 100px;
-        background-color: #ffd83d;
+        background-color: #ffdb4c;
         border-radius: 2px;
         display: grid;
         place-items: center;
