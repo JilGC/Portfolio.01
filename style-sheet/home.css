@@ -36,9 +36,13 @@ main {
     font-weight: 700;
 }
 
+.im>span {
+    color: #ffd83d;
+}
+
 .professional {
     color: #222831;
-    background-color: #ffd83d;
+    background-color: #ffffff;
     width: fit-content;
     padding: 8px 18px;
     letter-spacing: 1px;
@@ -48,7 +52,7 @@ main {
 .resume {
     background-color: #0f1012;
     padding: 15px 30px;
-    border-radius: 40px;
+    border-radius: 5px;
     color: #ffd83d;
     border: 1px solid #ffd83d;
 }

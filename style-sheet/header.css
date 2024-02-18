@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #E8E8E8;
+
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+p,
+a,
+li,
+div {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  background-color: #17181b;
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3;
+  z-index: 100;
+}
+
+.logo>a {
+  width: auto;
+  height: 100%;
+  color: #ffda47;
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 70px;
+  transition: all .1s linear;
+
+}
+
+.logo>a:hover {
+  color: #F5F7F8;
+}
+
+.navbar {}
+
+.navbar>ul {
+  list-style: none;
+  display: flex;
+  margin-right: 40px;
+}
+
+.navbar>ul>li {
+  padding: 0px 2px;
+  margin: 20px;
+}
+
+.navbar>ul>li>a {
+  color: #ffda47;
+  font-weight: 900;
+  transition: all .1s linear;
+}
+
+.content>a:hover {
+  color: #F5F7F8;
+}
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+
+  /*---------- Navbar Responsive------------- */
+  header {
+    display: block;
+    height: auto;
+    padding: 10px;
+  }
+
+  .logo>a {
+    /* margin-bottom: 15px; */
+    display: flex;
+    margin: 0px;
+    color: #CEDEF8;
+    font-size: 20px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar>ul {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar>ul>li {
+    padding: 3px 6px;
+    margin: 3px;
+  }
+
+  .navbar>ul>li>a {
+    font-size: 15px;
+  }
+}
