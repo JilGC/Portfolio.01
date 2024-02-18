@@ -2,11 +2,11 @@
 .projectPage {
     background-color: #17181b;
     display: block;
-    padding: 70px 20px;
+    padding: 100px 20px;
     height: auto;
 }
 
-.workContainer {
+/* .workContainer {
     gap: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -24,10 +24,31 @@
     border-radius: 10px;
     display: grid;
     place-items: center;
+} */
+
+.workContainer {
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: auto;
+    place-items: center;
+    margin: 0 10%;
+    height: auto;
+}
+
+.tile {
+    position: relative;
+    width: 230px;
+    height: 210px;
+    padding: 10px;
+    background-color: #ffd83d;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
 }
 
 .tile>i {
-    font-size: 80px;
+    font-size: 60px;
     color: #222222;
 }
 
@@ -40,17 +61,17 @@
     display: block;
     justify-content: center;
     color: #222222;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .secTile>h2 {
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 10px;
     text-align: center;
 }
 
 .secTile>p {
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 

@@ -2,7 +2,7 @@
 
 .socialMedia {
     display: block;
-    padding: 40px;
+    padding: 70px;
     background-color: #17181b;
     /* height: 100vh; */
 }
@@ -15,25 +15,16 @@
 
 .element {
     margin: 5%;
-    background-color: #CEDEF8;
-    border-radius: 20px;
-
-    opacity: 1;
-    transition: 0.2s;
 }
 
-.insta {
-    background: #17181b;
+.element>i {
+    font-size: 60px;
+    color: #ffd83d;
 }
 
-.element:hover {
-    opacity: 0.5
-}
-
-.element>img {
-    height: 90px;
-    padding: 8px;
-    padding-bottom: 3px;
+.element:hover i {
+    color: #ffffff;
+    transition-duration: 0.1s;
 }
 
 
@@ -54,20 +45,16 @@
 
     .element {
         margin: 5%;
-        background-color: #CEDEF8;
-        border-radius: 10px;
-
-        opacity: 1;
-        transition: 0.2s;
     }
 
-    .element:hover {
-        opacity: 0.5
+    .element>i {
+        font-size: 30px;
+        color: #ffd83d;
+        background-color: none;
     }
 
-    .element>img {
-        height: 40px;
-        padding: 5px;
-        padding-bottom: 0px;
+    .element:hover i {
+        color: #ffffff;
+        transition-duration: 0.1s;
     }
 }
