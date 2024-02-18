@@ -72,7 +72,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 70%;
+        width: 60%;
         border-radius: 6%;
     }
 
@@ -80,9 +80,14 @@
         padding: 15px;
     }
 
+    .intro>h2 {
+        font-size: 25px;
+    }
+
     .intro>p {
         word-spacing: 5px;
         line-height: 1.4;
+        font-size: 15px;
     }
 
     .about-content {
