@@ -239,4 +239,18 @@ textarea {
         outline: none;
         margin-bottom: 20px;
     }
+
+
+    .subBtn {
+        font-size: 10px;
+        padding: 6px 8px;
+        margin: auto;
+    }
+
+    .subBtn:hover {
+        background-color: #17181b;
+        color: #ffdb4c;
+        transition-duration: 0.2s;
+    }
+
 }

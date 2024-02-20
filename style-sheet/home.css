@@ -63,51 +63,11 @@ main {
     transition-duration: 0.3s;
 }
 
-
-
-
-
-
-
 @media screen and (min-width: 250px) and (max-width: 600px) {
 
     .masthead {
         background-color: #17181b;
         background-image: none;
-    }
-
-    header {
-        display: block;
-        height: auto;
-        padding: 10px;
-        background-color: #0f1012;
-    }
-
-    .logo>a {
-        /* margin-bottom: 15px; */
-        display: flex;
-        margin: 0px;
-        color: white;
-        font-size: 20px;
-
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar>ul {
-        display: flex;
-        margin: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar>ul>li {
-        padding: 3px 6px;
-        margin: 3px;
-    }
-
-    .navbar>ul>li>a {
-        font-size: 15px;
     }
 
     /*---------- Masthead- Responsive------------ */

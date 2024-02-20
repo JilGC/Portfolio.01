@@ -6,9 +6,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style-sheet/responsive.css">
+  <!-- <link rel="stylesheet" href="style-sheet/responsive.css"> -->
 
 
+  <link rel="stylesheet" href="style-sheet/body.css">
   <link rel="stylesheet" href="style-sheet/header.css">
   <link rel="stylesheet" href="style-sheet/home.css">
   <link rel="stylesheet" href="style-sheet/about.css">
@@ -22,25 +23,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&display=swap" rel="stylesheet">
-  <!-- font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
 
   <link rel="icon" href="img/avatar.png">
   <title>Jil Patel's Portfolio</title>
@@ -51,23 +33,28 @@
   <!--------------------------------------- Navbar ------------------------------------>
 
   <header class="header" id="header">
-    <!-- logo -->
-    <div class="logo">
-      <a href="#masthead">Jil Patel</a>
-
-      <!-- <a href="index.html"><img src="img/img01=1.png" alt="imageone"></a> -->
-    </div>
-    <!-- extra links -->
     <div class="links">
-      <nav class="navbar">
+      <nav>
+        <ul class="sidebar">
+          <li onClcik="hideSidebar()"><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+          <li><a href="#masthead">Home</a></li>
+          <li><a href="#aboutMePage">About</a></li>
+          <li><a href="#projectPage">Projects</a></li>
+          <li><a href="#contactMe">Contact</a></li>
+          <li><a href="#socialMedia">Social</a></li>
+        </ul>
+
         <ul>
-          <li class="content"><a href="#masthead">Home</a></li>
-          <li class="content"><a href="#aboutMePage">About</a></li>
-          <li class="content"><a href="#projectPage">Projects</a></li>
-          <li class="content"><a href="#contactMe">Contact</a></li>
-          <li class="content"><a href="#socialMedia">Social</a></li>
+          <li class="logo"><a href="">Jil Patel</a></li>
+          <li class="hideOnMobile"><a href="#masthead">Home</a></li>
+          <li class="hideOnMobile"><a href="#aboutMePage">About</a></li>
+          <li class="hideOnMobile"><a href="#projectPage">Projects</a></li>
+          <li class="hideOnMobile"><a href="#contactMe">Contact</a></li>
+          <li class="hideOnMobile"><a href="#socialMedia">Social</a></li>
+          <li onclick=showSidebar() class="menu-button"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
       </nav>
+
     </div>
 
   </header>
@@ -91,7 +78,7 @@
 
       <div class="about-content">
         <div class="aboutPicture">
-          <img src="img/aboutImg.png" alt="aboutimage">
+          <img src="img/aboutImg02.png" alt="aboutimage">
         </div>
         <div class="intro">
           <h2>So, who am I?</h2>
@@ -429,7 +416,7 @@
 
   </main>
   <footer>
-    <div class="details">
+    <div class="">
       <p>Designed by: Jil Patel</p>
     </div>
   </footer>
