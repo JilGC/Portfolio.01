@@ -74,7 +74,7 @@
 .btn1:hover,
 .btn3:hover {
     background-color: white;
-    color: #ffda47;
+    color: #ffdc52;
     border: none;
 
     border: 1px solid #ffdc52;
@@ -94,14 +94,14 @@
     text-align: center;
     transition-duration: 0.1s;
     border: 1px solid #ffdc52;
-    /* box-shadow: 5px 5px 5px #ffda47; */
+    /* box-shadow: 5px 5px 5px #ffdc52; */
 }
 
 .btn2:hover,
 .btn4:hover {
     background-color: #17181b;
     color: #ffdc52;
-    /* box-shadow: 10px 10px 5px #ffda47; */
+    /* box-shadow: 10px 10px 5px #ffdc52; */
 }
 
 /* -------------------- Skill-Bar ----------------------- */
@@ -257,7 +257,7 @@
     .btn4:hover {
         background-color: #17181b;
         color: #ffdc52;
-        /* box-shadow: 10px 10px 5px #ffda47; */
+        /* box-shadow: 10px 10px 5px #ffdc52; */
     }
 
 }
