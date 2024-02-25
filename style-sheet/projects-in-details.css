@@ -58,7 +58,7 @@
 
 .btn1,
 .btn3 {
-    background-color: #ffda47;
+    background-color: #ffdc52;
     color: #17181b;
     font-size: 15px;
     font-weight: bold;
@@ -67,7 +67,7 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
     box-shadow: 5px 5px 5px #aaaaaa;
 }
 
@@ -76,12 +76,14 @@
     background-color: white;
     color: #ffda47;
     border: none;
+
+    border: 1px solid #ffdc52;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .btn2,
 .btn4 {
-    background-color: #ffda47;
+    background-color: #ffdc52;
     color: #17181b;
     font-size: 15px;
     font-weight: bold;
@@ -90,17 +92,15 @@
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
-    transition-duration: 0.2s;
-
-    border: 1px solid #ffdb4c;
+    transition-duration: 0.1s;
+    border: 1px solid #ffdc52;
     /* box-shadow: 5px 5px 5px #ffda47; */
 }
 
 .btn2:hover,
 .btn4:hover {
     background-color: #17181b;
-    color: #ffdb4c;
-    transition-duration: 0.2s;
+    color: #ffdc52;
     /* box-shadow: 10px 10px 5px #ffda47; */
 }
 
@@ -141,7 +141,7 @@
     width: 50%;
     height: 100%;
     position: absolute;
-    background-color: #ffda47;
+    background-color: #ffdc52;
     border-radius: 25px;
     animation: animate 1.5s linear forwards;
 }
@@ -241,7 +241,7 @@
     .btn1:hover,
     .btn3:hover {
         background-color: white;
-        color: #ffda47;
+        color: #ffdc52;
         border: none;
         box-shadow: 10px 10px 5px #aaaaaa;
     }
@@ -256,8 +256,7 @@
     .btn2:hover,
     .btn4:hover {
         background-color: #17181b;
-        color: #ffdb4c;
-        transition-duration: 0.2s;
+        color: #ffdc52;
         /* box-shadow: 10px 10px 5px #ffda47; */
     }
 

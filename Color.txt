@@ -1,10 +1,11 @@
-YELLO: #ffd83d  ffd83d
+YELLO-01: #ffdb4c  ffdb4c
+
+YELLO-02: #ffdc52  ffdc52
+
 
 BLACK: #222831  222831
 
 LIGHT-BLUE: #CEDEF8  CEDEF8
-
-YELLO-2: #ffda47  ffda47
 
 Black: #17181b  17181b
 

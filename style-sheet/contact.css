@@ -135,14 +135,14 @@ textarea {
     padding: 10px 10px;
     font-size: 20px;
     font-weight: bold;
-    background-color: #ffdb4c;
+    background-color: #ffdc52;
     color: #17181b;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     transition-duration: 0.2s;
-    border: 1px solid #ffdb4c;
+    border: 1px solid #ffdc52;
 
     white-space: nowrap;
     overflow: hidden;
@@ -151,7 +151,7 @@ textarea {
 
 .subBtn:hover {
     background-color: #17181b;
-    color: #ffdb4c;
+    color: #ffdc52;
     transition-duration: 0.2s;
 }
 
@@ -249,7 +249,7 @@ textarea {
 
     .subBtn:hover {
         background-color: #17181b;
-        color: #ffdb4c;
+        color: #ffdc52;
         transition-duration: 0.2s;
     }
 

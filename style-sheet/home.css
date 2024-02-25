@@ -24,7 +24,7 @@ main {
 }
 
 .hello {
-    color: #ffdb4c;
+    color: #ffdc52;
     font-size: 5em;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
@@ -37,7 +37,7 @@ main {
 }
 
 .im>span {
-    color: #ffdb4c;
+    color: #ffdc52;
 }
 
 .professional {
@@ -53,12 +53,12 @@ main {
     background-color: #0f1012;
     padding: 15px 30px;
     border-radius: 5px;
-    color: #ffdb4c;
-    border: 1px solid #ffdb4c;
+    color: #ffdc52;
+    border: 1px solid #ffdc52;
 }
 
 .resume:hover {
-    background-color: #ffdb4c;
+    background-color: #ffdc52;
     color: #0f1012;
     transition-duration: 0.3s;
 }
@@ -90,7 +90,7 @@ main {
 
 
     .hello {
-        color: #ffdb4c;
+        color: #ffdc52;
         font-size: 3em;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-width: 2px;
@@ -110,7 +110,6 @@ main {
         letter-spacing: 1px;
         word-spacing: 5px;
         font-size: 2px;
-
         display: none;
     }
 
@@ -119,12 +118,12 @@ main {
         background-color: #0f1012;
         padding: 5px 15px;
         border-radius: 40px;
-        color: #ffdb4c;
-        border: 1px solid #ffdb4c;
+        color: #ffdc52;
+        border: 1px solid #ffdc52;
     }
 
     .resume:hover {
-        background-color: #ffdb4c;
+        background-color: #ffdc52;
         color: #0f1012;
         transition-duration: 0.3s;
     }
