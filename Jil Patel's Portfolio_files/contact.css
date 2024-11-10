@@ -1,0 +1,256 @@
+/*_______________________________Contact_______________________________ */
+
+.contact {
+    padding: 100px;
+    /* height: 100vh; */
+}
+
+.contact-container {
+    color: #ffffff;
+    background-color: #17181b;
+    padding: 40px;
+    border-radius: 30px;
+
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /* grid-template-columns: 50% 50%;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 420px;
+    width: 900px;
+    max-width: 1000px;
+
+    box-shadow: 15px 15px 10px #888888; */
+
+    /* display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-template-rows: 240px; */
+
+}
+
+/*---------------- Details ----------------*/
+
+
+.myDetails {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnt {
+    /* margin-bottom: 30px; */
+}
+
+.myDetails>h1 {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.details>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.details {
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+.details>img {
+    height: 30px;
+    margin-right: 20px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/*---------------- Message Me ----------------*/
+
+.messageMe {
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    padding-left: 0px;
+}
+
+.messageMe>h1 {
+    margin: 25px 0;
+
+}
+
+.messageMe>form {
+    display: grid;
+    gap: 1rem;
+}
+
+
+#nameInput {
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    width: 70%;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    /* margin-bottom: 20px; */
+
+}
+
+#emailInput {
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 15px;
+    width: 70%;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    /* margin-bottom: 20px; */
+
+}
+
+textarea {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: none;
+    resize: none;
+    outline: none;
+    /* margin-bottom: 10px; */
+    scroll-behavior: auto;
+    overflow: auto;
+}
+
+.subBtn {
+    width: 25%;
+    min-width: 170px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ffdc52;
+    color: #17181b;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-duration: 0.2s;
+    border: 1px solid #ffdc52;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.subBtn:hover {
+    background-color: #17181b;
+    color: #ffdc52;
+    transition-duration: 0.2s;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+    .contact {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .contact-container {
+        display: block;
+        height: 100%;
+        width: auto;
+        margin: 10px;
+        padding: 35px;
+    }
+
+    .myDetails {}
+
+    .myDetails>h1 {
+        display: flex;
+        margin: 5px;
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details {
+        margin: 10px;
+        float: left;
+
+    }
+
+    .details>p {
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .messageMe>h1 {
+        display: flex;
+        margin: 5px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nameInput {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    #emailInput {
+        padding: 10px;
+        padding-left: 15px;
+        font-size: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 15px;
+    }
+
+    #messageInput {
+        padding: 10px;
+        font-size: 15px;
+        padding-left: 15px;
+        width: 100%;
+        border-radius: 10px;
+        border-style: none;
+        outline: none;
+        margin-bottom: 20px;
+    }
+
+
+    .subBtn {
+        font-size: 10px;
+        padding: 6px 8px;
+        margin: auto;
+    }
+
+    .subBtn:hover {
+        background-color: #17181b;
+        color: #ffdc52;
+        transition-duration: 0.2s;
+    }
+
+}

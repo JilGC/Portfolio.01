@@ -1,0 +1,135 @@
+/* Main */
+
+main {
+    grid-area: main;
+}
+
+.masthead {
+    height: 700px;
+    background-image: url(../img/backgroundImg.png);
+    background-size: cover;
+    padding: 50px;
+
+    display: grid;
+
+}
+
+.letters {
+    margin: auto;
+    margin-left: 80px;
+}
+
+.lett {}
+
+.hello {
+    color: #ffdc52;
+    font-size: 4em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+.im {
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.im>span {
+    color: #ffdc52;
+}
+
+/* .professional {
+    color: #222831;
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 8px 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+} */
+
+.professional {
+    /* margin-bottom: 50px; */
+    color: #ffffff;
+    font-size: 2.5em;
+    margin: 20px 0 50px 0;
+}
+
+.resume {
+    background-color: #0f1012;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #ffdc52;
+    border: 1px solid #ffdc52;
+}
+
+.resume:hover {
+    background-color: #ffdc52;
+    color: #0f1012;
+    transition-duration: 0.3s;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+
+    .masthead {
+        background-color: #17181b;
+        background-image: none;
+    }
+
+    /*---------- Masthead- Responsive------------ */
+    .masthead {
+        height: 100vh;
+        padding: 20px;
+    }
+
+    .letters {
+        height: 40%;
+        width: auto;
+        margin-left: 10%;
+        /* padding: 40px; */
+        /* margin: auto; */
+    }
+
+    .letters>p {
+        margin-bottom: 30px;
+    }
+
+
+    .hello {
+        color: #ffdc52;
+        font-size: 3em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+    }
+
+    .im {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    .professional {
+        color: #222831;
+        background-color: none;
+        width: 250px;
+        padding: 10px 12px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        font-size: 2px;
+        display: none;
+    }
+
+    .resume {
+        font-size: 1em;
+        background-color: #0f1012;
+        padding: 5px 15px;
+        border-radius: 40px;
+        color: #ffdc52;
+        border: 1px solid #ffdc52;
+    }
+
+    .resume:hover {
+        background-color: #ffdc52;
+        color: #0f1012;
+        transition-duration: 0.3s;
+    }
+}

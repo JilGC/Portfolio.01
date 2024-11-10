@@ -1,0 +1,60 @@
+/*---------------------------- social-media----------------------------- */
+
+.socialMedia {
+    display: block;
+    padding: 70px;
+    background-color: #17181b;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element {
+    margin: 5%;
+}
+
+.element>i {
+    font-size: 60px;
+    color: #ffdc52;
+}
+
+.element:hover i {
+    color: #ffffff;
+    transition-duration: 0.1s;
+}
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+
+    .socialMedia {
+        padding: 10px;
+    }
+
+    .social-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .element {
+        margin: 5%;
+        background-color: #17181b;
+    }
+
+    .element>i {
+        font-size: 30px;
+        color: #ffdc52;
+        background-color: none;
+    }
+
+    .element:hover i {
+        color: #ffffff;
+        transition-duration: 0.1s;
+    }
+}

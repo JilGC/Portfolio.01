@@ -1,0 +1,263 @@
+/*--------------- Project in Details ------------------ */
+
+.projectType01 {
+    display: block;
+    padding: 100px;
+}
+
+.projectType02 {
+    display: block;
+    padding: 100px;
+    background-color: #17181b;
+}
+
+.pro-1-heading {
+    color: #000000;
+}
+
+.columns {
+    display: grid;
+    /* grid-template-columns: 50% 50%; */
+    /* align-items: center; */
+
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.columnleft-1 {
+    /* color: #ffffff; */
+    margin: 0px 40px;
+}
+
+.columnleft-2 {
+    color: #ffffff;
+    margin: 0px 40px;
+}
+
+.columnleft-1>h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.columnleft-2>h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.points {
+    padding-bottom: 5%;
+}
+
+.points>li {
+    padding: 0.8%;
+    word-spacing: 1px;
+
+}
+
+.btn1,
+.btn3 {
+    background-color: #ffdc52;
+    color: #17181b;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-duration: 0.1s;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.btn1:hover,
+.btn3:hover {
+    background-color: white;
+    color: #ffdc52;
+    border: none;
+
+    border: 1px solid #ffdc52;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.btn2,
+.btn4 {
+    background-color: #ffdc52;
+    color: #17181b;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition-duration: 0.1s;
+    border: 1px solid #ffdc52;
+    /* box-shadow: 5px 5px 5px #ffdc52; */
+}
+
+.btn2:hover,
+.btn4:hover {
+    background-color: #17181b;
+    color: #ffdc52;
+    /* box-shadow: 10px 10px 5px #ffdc52; */
+}
+
+/* -------------------- Skill-Bar ----------------------- */
+
+.columnRight-1 {
+    /* margin: */
+}
+
+.columnRight-2 {
+
+    color: #ffffff;
+}
+
+.skill-bar {
+    margin: 20px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px;
+}
+
+.bar {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 25px;
+
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .4) inset;
+
+    box-shadow: 0 0 1px 0.5px #000000;
+}
+
+.progress {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffdc52;
+    border-radius: 25px;
+    animation: animate 1.5s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+    .projectType01 {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .titleHeading-2>h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .titleHeading-1>h2 {
+        margin: 0px;
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .points>li {
+        font-size: 15px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columnleft-1 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .columnleft-1>h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .columnleft-2>h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+
+    .columnRight-1,
+    .columnRight-2 {
+        margin: 0px 30px;
+    }
+
+    /* project page 2 */
+
+    .projectType02 {
+        padding: 25px 15px;
+        margin: 0px;
+    }
+
+    .columns {
+        display: block;
+    }
+
+    .columnleft-2 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .info>p {
+        font-size: 15px;
+    }
+
+    /* bottons */
+
+    .btn1,
+    .btn3 {
+        font-size: 10px;
+        font-weight: bold;
+        padding: 6px 8px;
+    }
+
+    .btn1:hover,
+    .btn3:hover {
+        background-color: white;
+        color: #ffdc52;
+        border: none;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }
+
+    .btn2,
+    .btn4 {
+        font-size: 10px;
+        font-weight: bold;
+        padding: 6px 8px;
+    }
+
+    .btn2:hover,
+    .btn4:hover {
+        background-color: #17181b;
+        color: #ffdc52;
+        /* box-shadow: 10px 10px 5px #ffdc52; */
+    }
+
+}

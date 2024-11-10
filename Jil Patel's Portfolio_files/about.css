@@ -1,0 +1,98 @@
+/*--------------------- aboutb me page----------------- */
+
+.aboutMePage {
+    padding: 100px;
+    /* height: 600px; */
+}
+
+.about-content {
+    display: grid;
+    place-items: center;
+
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.aboutPicture {
+    /* display: grid;
+    place-items: center; */
+}
+
+.about-content>div>img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.intro {
+    display: grid;
+
+    /* font-size: 20px;
+    padding: 20px;
+    padding-top: 10%;
+    padding-left: 0;
+    float: left; */
+}
+
+.intro>h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #222831;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.intro>p {
+    word-spacing: 6px;
+    line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+    .aboutMePage {
+        padding: 25px 15px;
+    }
+
+    .intro {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .aboutPicture {
+        margin: 15px;
+    }
+
+    .about-content>div>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        border-radius: 6%;
+    }
+
+    .intro {
+        padding: 15px;
+    }
+
+    .intro>h2 {
+        font-size: 25px;
+    }
+
+    .intro>p {
+        word-spacing: 5px;
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    .about-content {
+        display: block;
+        overflow: hidden;
+    }
+
+}
