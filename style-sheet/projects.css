@@ -22,7 +22,7 @@
     height: 210px;
     padding: 10px;
     background-color: #ffdc52;
-    border-radius: 10px;
+    border-radius: 15px;
     display: grid;
     place-items: center;
 }

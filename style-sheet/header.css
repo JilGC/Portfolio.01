@@ -1,6 +1,9 @@
 /* Header */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* .sidebar {
+  display: none;
+} */
 
 nav {
   background-color: #17181b;
@@ -10,9 +13,26 @@ nav {
   width: 100%;
   transition: top 0.3;
   z-index: 1;
+  /* height: 60px; */
 }
 
-nav ul {
+
+nav a {
+  /* height: 100%; */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #ffdc52;
+  /* padding: 10px; */
+
+}
+
+nav a:hover {
+  color: #ffffff;
+  /* background-color: #121212; */
+}
+
+.fullbar>ul {
   width: 100%;
   list-style: none;
   display: flex;
@@ -20,22 +40,8 @@ nav ul {
   align-items: center;
 }
 
-nav li {
-  height: 60px;
-}
-
-nav a {
-  height: 100%;
-  padding: 0 30px;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  color: #ffdc52;
-}
-
-nav a:hover {
-  color: #ffffff;
-  background-color: #121212;
+.fullbar>li {
+  padding: 20px;
 }
 
 nav li:first-child {
@@ -45,74 +51,66 @@ nav li:first-child {
 .logo a {
   font-size: 35px;
   font-weight: 600;
-  margin-left: 30px;
+  color: #ffdc52;
+  padding: 10px 30px;
 }
 
+.navLinks {
+  display: flex;
+}
+
+.navLinks a {
+  padding: 20px 30px;
+}
 
 .sidebar {
-  background-color: #17181b;
+  height: 100%;
+  width: 300px;
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
-  width: 250px;
-  z-index: 999;
-  backdrop-filter: blur(10px);
-  /* box-shadow: -10px 0 10px; */
-  /* display: flex; */
+  overflow-x: hidden;
+  transition: width 0.4s ease;
+  z-index: 2;
+  background-color: #17181b;
   display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 
-.sidebar li {
-  width: 100%;
+.toggleBtn:hover {}
+
+.closeBtn {
+  width: 80px;
+  height: 10%;
+}
+
+.sidebar button {
+  background-color: #17181b;
 }
 
 .sidebar a {
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  /* background-color: #ffdc52; */
 }
 
-.menu-button {
-  display: none;
+.sidebar a:hover {
+  background-color: #252628;
 }
 
-@media(max-width: 800px) {
+.sidebar {
+  /* display: none; */
+}
 
-  nav {
-    background-color: #17181b;
-    box-shadow: 3px 3px 5px;
-    position: fixed;
-
-    display: flex;
-    top: 0;
-    width: 100%;
-    transition: top 0.3;
-    z-index: 1;
-  }
-
-  .logo a {
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 0;
-  }
-
-  .hideOnMobile {
+@media screen and (max-width: 800px) {
+  .hideSidebar {
     display: none;
   }
-
-  .menu-button {
-    display: block;
-  }
 }
 
-@media(max-width: 400px) {
+/* @media screen and (min-width: 800px) {
   .sidebar {
-    width: 100%;
+    display: none;
   }
-
-  .menu-button {
-    display: block;
-  }
-}
+} */

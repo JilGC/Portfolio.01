@@ -6,12 +6,11 @@ main {
 
 .masthead {
     height: 700px;
-    background-image: url(../img/backgroundImg.png);
+    /* background-image: url(../img/backgroundImg.png); */
+    background-color: #151618;
     background-size: cover;
     padding: 50px;
-
-    display: grid;
-
+    display: flex;
 }
 
 .letters {
@@ -57,7 +56,7 @@ main {
 .resume {
     background-color: #0f1012;
     padding: 15px 30px;
-    border-radius: 5px;
+    border-radius: 30px;
     color: #ffdc52;
     border: 1px solid #ffdc52;
 }
@@ -66,6 +65,20 @@ main {
     background-color: #ffdc52;
     color: #0f1012;
     transition-duration: 0.3s;
+}
+
+.aboutPicture>img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+
+    /* box-shadow: 10px 10px 5px #aaaaaa; */
+}
+
+.aboutPicture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 250px) and (max-width: 600px) {

@@ -8,7 +8,6 @@
 .about-content {
     display: grid;
     place-items: center;
-
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 }
@@ -18,12 +17,11 @@
     place-items: center; */
 }
 
-.about-content>div>img {
+/* .about-content>div>img {
     width: 250px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-}
+    border-radius: 20px;
+} */
 
 .intro {
     display: grid;

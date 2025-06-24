@@ -16,7 +16,9 @@
   <link rel="stylesheet" href="style-sheet/projects.css">
   <link rel="stylesheet" href="style-sheet/projects-in-details.css">
   <link rel="stylesheet" href="style-sheet/contact.css">
+  <link rel="stylesheet" href="style-sheet/sidebar.css">
   <link rel="stylesheet" href="style-sheet/social.css">
+
 
   <!-- <link rel="stylesheet" href="stylesheet.css"> -->
   <!-- font -->
@@ -35,29 +37,33 @@
   <header class="header" id="header">
     <div class="links">
       <nav>
-        <ul class="sidebar">
-          <li onClcik="hideSidebar()"><a href=""><i class="fa-solid fa-xmark"></i></a></li>
-          <li><a href="#masthead">Home</a></li>
-          <li><a href="#aboutMePage">About</a></li>
-          <li><a href="#projectPage">Projects</a></li>
 
-          <!-- <li onclick="navigateToPage()"><a href="">Projects</a></li> -->
+        <div class="fullbar" id="fullbar">
+          <ul class="">
+            <li class="logo"><a href="">Jil Patel</a></li>
+            <button><a href="" class="toggleBtn"><i class="fa-solid fa-bars"></i></a></button>
+            <div class="sidebar" id="sidebar">
+              <button><a href="" class="closeBtn"><i class="fa-solid fa-xmark"></i></a></button>
+              <li><a href="#masthead">Home</a></li>
+              <li><a href="#aboutMePage">About</a></li>
+              <li><a href="#projectPage">Projects</a></li>
+              <li><a href="#contactMe">Contact</a></li>
+              <li><a href="#socialMedia">Social</a></li>
+              <!-- <p>asdfad</p> -->
+            </div>
+            <div id="hideSidebar" class="hideSidebar">
+              <div class="navLinks" id="navLinks">
+                <li class=""><a href="#masthead">Home</a></li>
+                <li class=""><a href="#aboutMePage">About</a></li>
+                <li class=""><a href="#projectPage">Projects</a></li>
+                <li class=""><a href="#contactMe">Contact</a></li>
+                <li class=""><a href="#socialMedia">Social</a></li>
+              </div>
 
-          <li><a href="#contactMe">Contact</a></li>
-          <li><a href="#socialMedia">Social</a></li>
-        </ul>
-
-        <ul>
-          <li class="logo"><a href="">Jil Patel</a></li>
-          <li class="hideOnMobile"><a href="#masthead">Home</a></li>
-          <li class="hideOnMobile"><a href="#aboutMePage">About</a></li>
-          <li class="hideOnMobile"><a href="#projectPage">Projects</a></li>
-          <li class="hideOnMobile"><a href="#contactMe">Contact</a></li>
-          <li class="hideOnMobile"><a href="#socialMedia">Social</a></li>
-          <li onclick=showSidebar() class="menu-button"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-        </ul>
+            </div>
+          </ul>
+        </div>
       </nav>
-
     </div>
 
   </header>
@@ -71,6 +77,9 @@
         <!-- <p class="professional">I'm A Creative Software Developer.</p> -->
         <a href="./Files/Resume_02.pdf" target="_blank" class="resume">Download CV</a>
       </div>
+      <div class="aboutPicture">
+        <!-- <img src="img/aboutImg.png" alt="aboutimage"> -->
+      </div>
     </section>
 
     <!--------------------------------------- About Me ------------------------------------>
@@ -81,9 +90,7 @@
       </div>
 
       <div class="about-content">
-        <div class="aboutPicture">
-          <img src="img/aboutImg.png" alt="aboutimage">
-        </div>
+
         <div class="intro">
           <h2>So, who am I?</h2>
           <p>"Hello, I'm Jil Patel, a software developer passionate about transforming ideas into functional,
@@ -380,15 +387,25 @@
 
         <div class="messageMe">
           <h1>Message me</h1>
-          <form onsubmit="emailSend(); reset(); return false;">
-            <input placeholder="Name" id="nameInput">
 
-            <input type="email" placeholder="Email" id="emailInput">
+          <form id="contactForm" onsubmit="emailSend(); reset(); return false;">
+            <div>
+              <input placeholder="Name" id="nameInput">
+            </div>
 
-            <textarea placeholder="Message" id="messageInput"></textarea>
+            <div>
+              <input type="email" placeholder="Email" id="emailInput">
+            </div>
+
+            <div>
+              <textarea placeholder="Message" id="messageInput"></textarea>
+            </div>
 
             <button type="submit" class="subBtn">Send Message</button>
           </form>
+
+          <script src="formHandler.js"></script>
+
         </div>
 
       </div>
@@ -433,7 +450,8 @@
   <script src="https://smtpjs.com/v3/smtp.js"></script>
 
   <script src="script.js"></script>
-  <!-- <script src="email.js"></script> -->
+  <script src="script01.js"></script>
+
 </body>
 
 </html>

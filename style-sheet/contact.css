@@ -14,21 +14,6 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    /* grid-template-columns: 50% 50%;
-
-
-    margin-left: auto;
-    margin-right: auto;
-    height: 420px;
-    width: 900px;
-    max-width: 1000px;
-
-    box-shadow: 15px 15px 10px #888888; */
-
-    /* display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
-    grid-template-rows: 240px; */
-
 }
 
 /*---------------- Details ----------------*/
@@ -139,11 +124,10 @@ textarea {
     color: #17181b;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 25px;
     text-align: center;
     transition-duration: 0.2s;
     border: 1px solid #ffdc52;
-
     white-space: nowrap;
     overflow: hidden;
 
